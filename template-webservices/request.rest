@@ -1,0 +1,30 @@
+POST http://localhost:3003/signup
+Content-Type: application/json
+
+{
+   "name": "Carlos Henrique", 
+   "email": "henriquec@gmail.com" ,
+   "password": "123456",
+   "role":"ADMIN"
+}
+
+###
+POST http://localhost:3003/recipes
+Content-Type: application/json
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjcxNGRmODBmLTJjZmItNDljNS05ZDlkLTRjNzU3YjVlYTU0OSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY1MTE3ODExMSwiZXhwIjoxNjUxMjY0NTExfQ.RLN5diGSY2CkEGZuh1MGzYwWtHiX0LnV58JraejrqM4
+
+{
+   "title": "Churrasco" ,
+   "description": "Carne de primeira, Pão de Alho, Linguiça."
+}
+###
+
+GET http://localhost:3003/user/profile
+Content-Type: application/json
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjcxNGRmODBmLTJjZmItNDljNS05ZDlkLTRjNzU3YjVlYTU0OSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY1MTE3ODExMSwiZXhwIjoxNjUxMjY0NTExfQ.RLN5diGSY2CkEGZuh1MGzYwWtHiX0LnV58JraejrqM4
+
+###
+
+GET http://localhost:3003/recipes/e1caf9ec-8a55-4a80-a1c0-7650613951e5
+Content-Type: application/json
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjcxNGRmODBmLTJjZmItNDljNS05ZDlkLTRjNzU3YjVlYTU0OSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY1MTE3ODExMSwiZXhwIjoxNjUxMjY0NTExfQ.RLN5diGSY2CkEGZuh1MGzYwWtHiX0LnV58JraejrqM4
