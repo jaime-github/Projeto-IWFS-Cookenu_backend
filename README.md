@@ -74,7 +74,7 @@ Um usuário deve poder visualizar as receitas criadas pelos usuários que ele se
 No terminal, clone o projeto:
 
 ```
-git clone https://github.com/EloisaFagundes/Backend-Cookenu
+[git clone https://github.com/jaime-github/Projeto-IWFS-Cookenu_backend.git)
 ```
 Navegue para dentro da raiz do projeto
 
